@@ -161,7 +161,7 @@ def _jdbc_connect_jpype(jclassname, url, driver_args, jars, libs):
     import jpype
     if not jpype.isJVMStarted():
         args = []
-        args = ['-Djavax.net.ssl.trustStore=/Users/jose/quartzo.serpro.gov.br.jks']
+        args = ['-Djavax.net.ssl.trustStore=/home/jose/quartzo.serpro.gov.br.jks']
         class_path = []
         if jars:
             class_path.extend(jars)
